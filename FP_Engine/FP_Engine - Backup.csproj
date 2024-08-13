@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>FP_Engine</RootNamespace>
+    <Authors>bilalshafi</Authors>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	  <!-- <PackageReference Include="FP_Engine" Version="3.14.0" /> -->
+	<PackageReference Include="Dahomey.Cbor" Version="1.16.1" />
+	<PackageReference Include="SixLabors.ImageSharp" Version="2.1.8" />
+	<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.17" />
+	<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+  
+  </ItemGroup>
+
+</Project>
